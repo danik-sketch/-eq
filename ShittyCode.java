@@ -46,8 +46,6 @@ public class ShittyCode {
         }
         
         
-        // 12. СЛИШКОМ ОБЩЕЕ ИСКЛЮЧЕНИЕ (Major)
-        throw new RuntimeException("Something bad happened");
         
         // 13. НЕДОСТИЖИМЫЙ КОД (Major)
         // System.out.println("Unreachable");
