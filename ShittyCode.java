@@ -45,12 +45,6 @@ public class ShittyCode {
             System.out.println("Will never happen");
         }
         
-        // 11. ПУСТОЙ CATCH БЛОК (Major)
-        try {
-            int x = 10 / 0;
-        } catch (Exception e) {
-            // ИГНОРИРУЕМ ОШИБКУ!
-        }
         
         // 12. СЛИШКОМ ОБЩЕЕ ИСКЛЮЧЕНИЕ (Major)
         throw new RuntimeException("Something bad happened");
